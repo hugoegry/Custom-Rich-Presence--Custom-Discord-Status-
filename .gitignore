@@ -40,6 +40,5 @@ instance.lock
 *.tmp
 *.temp
 
-# Release artifacts (uploaded to GitHub Releases, not committed)
 release_staging/
 HE-Custom-Rich-Presence-Windows-*.zip
