@@ -1,0 +1,39 @@
+$bg-0: #0c0d10;
+$bg-1: #111214;
+$panel: #1e1f22;
+$panel-2: #2b2d31;
+$input: #1a1b1e;
+$border: rgba(255, 255, 255, 0.06);
+$text: #f2f3f5;
+$muted: #b5bac1;
+$soft: #949ba4;
+$blurple: #5865f2;
+$blurple-2: #4752c4;
+$green: #23a559;
+$green-2: #1a7f45;
+$red: #da373c;
+$red-2: #a12d31;
+$radius: 14px;
+$shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+$font: 'Outfit', system-ui, sans-serif;
+
+:root {
+  --bg-0: #{$bg-0};
+  --bg-1: #{$bg-1};
+  --panel: #{$panel};
+  --panel-2: #{$panel-2};
+  --input: #{$input};
+  --border: #{$border};
+  --text: #{$text};
+  --muted: #{$muted};
+  --soft: #{$soft};
+  --blurple: #{$blurple};
+  --blurple-2: #{$blurple-2};
+  --green: #{$green};
+  --green-2: #{$green-2};
+  --red: #{$red};
+  --red-2: #{$red-2};
+  --radius: #{$radius};
+  --shadow: #{$shadow};
+  --font: #{$font};
+}

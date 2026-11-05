@@ -1,0 +1,17 @@
+@mixin focus-ring {
+  border-color: rgba(88, 101, 242, 0.7);
+  box-shadow: 0 0 0 3px rgba(88, 101, 242, 0.18);
+}
+
+@mixin panel-surface {
+  background: linear-gradient(180deg, rgba(43, 45, 49, 0.92), rgba(30, 31, 34, 0.96));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+@mixin rise($delay: 0s) {
+  animation: rise 0.45s ease both;
+  animation-delay: $delay;
+}

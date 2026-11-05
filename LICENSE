@@ -1,0 +1,107 @@
+HE Custom Rich Presence — License and Acceptable Use
+Copyright (c) 2026 Hugo Egry
+
+================================================================
+1. SUMMARY
+================================================================
+
+This software is provided for personal and legitimate use only.
+You do NOT have the right to use it for illegal, fraudulent,
+deceptive, or harmful activity, or for any use that violates
+Discord's terms (or those of any other third-party service).
+
+The author is NOT responsible for how you use this software.
+This project is NOT affiliated with Discord.
+
+================================================================
+2. GRANT OF USE
+================================================================
+
+Subject to the terms below, you may:
+
+  - use this software for personal, non-commercial purposes;
+  - copy and modify the source for your own private use;
+  - build and run the Windows executable for yourself.
+
+You may NOT, without prior written permission from the copyright holder:
+
+  - sell, rent, sublicense, or commercially redistribute this software
+    (or a modified version) as a product or service;
+  - remove copyright, license, or attribution notices;
+  - claim that this software is an official Discord product.
+
+================================================================
+3. ACCEPTABLE USE (MANDATORY)
+================================================================
+
+This kind of tool (custom Discord Rich Presence) can be abused.
+By using the software, you agree that you will NOT use it to:
+
+  a) commit, facilitate, or promote any illegal activity under applicable law;
+  b) scam, phish, defraud, steal identities, or perform social engineering;
+  c) impersonate another person, brand, game, company, or service
+     in a deceptive or harmful way;
+  d) distribute malware, harmful links, or unauthorized access tools
+     (including via Rich Presence buttons or images);
+  e) harass, threaten, defame, or target minors;
+  f) violate Discord Terms of Service, Discord Community Guidelines,
+     Developer Terms, or any other Discord policy;
+  g) bypass security, anti-abuse, or privacy controls of Discord
+     or of any third-party service;
+  h) display illegal content, stolen credentials, or content you do not
+     have the right to use (copyright, trademark, image rights, etc.).
+
+You are solely responsible for:
+
+  - the Discord Application / Client ID you configure;
+  - the text, images, URLs, and buttons you publish in your presence;
+  - compliance with Discord rules and with the law in your jurisdiction.
+
+If you do not agree with these rules, do not use this software.
+
+================================================================
+4. DISCORD DISCLAIMER
+================================================================
+
+HE Custom Rich Presence is an unofficial, independent project.
+It is NOT endorsed, sponsored, or affiliated with Discord Inc.
+"Discord" and related marks belong to their respective owners.
+
+Using unofficial clients, automation, or status tools may carry risk
+(account limitation, feature breakage, policy enforcement). You use
+this software at your own risk.
+
+================================================================
+5. NO WARRANTY
+================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+================================================================
+6. LIMITATION OF LIABILITY
+================================================================
+
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE — INCLUDING
+ANY CONSEQUENCE OF MISUSE, ACCOUNT SANCTIONS, DATA LOSS, OR THIRD-PARTY
+CLAIMS RELATED TO CONTENT YOU DISPLAY THROUGH RICH PRESENCE.
+
+================================================================
+7. TERMINATION
+================================================================
+
+Any use that violates section 3 automatically terminates the rights
+granted in section 2. The copyright holder may also revoke permission
+for any use that harms Discord users, third parties, or the project.
+
+================================================================
+8. CONTACT
+================================================================
+
+Author: Hugo Egry
+GitHub: https://github.com/hugoegry
+Email:  hugo.egry@epitech.eu

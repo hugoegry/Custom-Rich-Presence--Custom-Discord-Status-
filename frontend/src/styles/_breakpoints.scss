@@ -1,0 +1,7 @@
+$bp-tablet: 1100px;
+
+@mixin below-tablet {
+  @media (max-width: $bp-tablet) {
+    @content;
+  }
+}

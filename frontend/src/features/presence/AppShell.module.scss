@@ -1,0 +1,133 @@
+@use '../../styles/breakpoints' as *;
+
+.bgGlow {
+  position: fixed;
+  inset: -20% auto auto -10%;
+  width: 55vw;
+  height: 55vw;
+  background: radial-gradient(circle, rgba(88, 101, 242, 0.22), transparent 65%);
+  filter: blur(10px);
+  pointer-events: none;
+  z-index: 0;
+  animation: drift 12s ease-in-out infinite alternate;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: -40vw;
+    bottom: -20vw;
+    width: 45vw;
+    height: 45vw;
+    background: radial-gradient(circle, rgba(35, 165, 89, 0.12), transparent 70%);
+  }
+}
+
+.app {
+  position: relative;
+  z-index: 1;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 28px 20px 40px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brandMark {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  flex: 0 0 42px;
+  box-shadow: 0 10px 30px rgba(88, 101, 242, 0.35);
+  animation: pulse 2.8s ease-in-out infinite;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.brand p {
+  margin: 2px 0 0;
+  color: var(--soft);
+  font-size: 0.85rem;
+}
+
+.statusPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(30, 31, 34, 0.9);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--soft);
+  box-shadow: 0 0 0 3px rgba(148, 155, 164, 0.15);
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.online {
+  color: #b8f0cc;
+
+  .dot {
+    background: var(--green);
+    box-shadow: 0 0 0 3px rgba(35, 165, 89, 0.2);
+  }
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.55fr) minmax(0, 1.25fr) minmax(260px, 0.75fr);
+  gap: 18px;
+  align-items: start;
+
+  @include below-tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.toast {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(88, 101, 242, 0.12);
+  border: 1px solid rgba(88, 101, 242, 0.25);
+  color: #d7dbff;
+  font-size: 0.9rem;
+}
+
+.toastError {
+  background: rgba(218, 55, 60, 0.12);
+  border-color: rgba(218, 55, 60, 0.3);
+  color: #ffc9cb;
+}

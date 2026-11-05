@@ -1,0 +1,134 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  position: relative;
+  z-index: 5;
+}
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.86rem;
+  cursor: pointer;
+  overflow: visible;
+  white-space: nowrap;
+  background: transparent;
+  z-index: 1;
+  transition: opacity 0.2s ease, transform 0.2s ease, z-index 0s;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: wait;
+  }
+
+  &:hover,
+  &:focus-visible {
+    z-index: 20;
+  }
+}
+
+.grow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  height: 36px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0;
+  padding: 0 9px;
+  border-radius: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: inherit;
+  transition: gap 0.28s ease, padding 0.28s ease, background 0.2s ease;
+}
+
+.btn:hover .grow,
+.btn:focus-visible .grow {
+  gap: 8px;
+  padding-inline: 14px 10px;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+  }
+}
+
+.label {
+  display: inline-block;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateX(4px);
+  transition: max-width 0.28s ease, opacity 0.22s ease, transform 0.28s ease;
+}
+
+.btn:hover .label,
+.btn:focus-visible .label {
+  max-width: 140px;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.blurple .grow {
+  background: var(--blurple);
+}
+
+.blurple:hover .grow,
+.blurple:focus-visible .grow {
+  background: var(--blurple-2);
+}
+
+.green .grow {
+  background: var(--green);
+}
+
+.green:hover .grow,
+.green:focus-visible .grow {
+  background: var(--green-2);
+}
+
+.red .grow {
+  background: var(--red);
+}
+
+.red:hover .grow,
+.red:focus-visible .grow {
+  background: var(--red-2);
+}
+
+.ghost .grow {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  color: var(--text);
+  box-sizing: border-box;
+}
+
+.ghost:hover .grow,
+.ghost:focus-visible .grow {
+  background: rgba(255, 255, 255, 0.08);
+}
